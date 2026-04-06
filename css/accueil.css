@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #333;
+}
+footer{
+    background-color: var(--blue-marine);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--blue-marine);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    /* margin: 0; */
+}
+p{
+    margin-top: 0;
+}
+:root{
+    --blue-marine: #002147;
+    --or-beige:#dfa843fa;
+    --blanc:#ffffff;
+}
+
+.h-image{
+    border-bottom: var(--or-beige);
+    border-top: var(--or-beige);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 19px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--blue-marine);
+    font-weight: bold;
+
+}
+nav a.active {
+    border-bottom: 2px solid var(--blue-marine);
+}
+main {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px;
+}
+.boite{
+    display: flex;
+    align-items: center;
+    border:2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    gap: 20px;
+    padding: 20px;
+    /* width: 30%; */
+}
+.icon-container{
+    width: 80px;
+    height: 80px;
+    background-color: var(--or-beige);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+button {
+    background: var(--or-beige);
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border: none;
+}
+.reseaux{
+    display: flex;
+    gap: 10px;
+}
+.icon-reseau{
+    width: 40px;
+    height: 40px;
+    background-color: var(--or-beige);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+@media (max-width:800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .boite{
+        width: 90%;
+    }
+    
+}
