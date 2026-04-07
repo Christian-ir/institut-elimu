@@ -25,6 +25,67 @@
             </ul>
         </nav>
     </header>
+    <main class="inscription">
+        <section class="desc-accueil">
+            <h4 style="color: var(--or-beige);">ADMISSION OUVERTES</h4>
+            <h1>INSCRIPTION 2026-2027</h1>
+            <p>Rejoignez l'Excellence et la Tradition. Preparez votre avenir au sein d'un environnement academique prestigieux et innovant</p>
+            <div class="h-image">
+            <img src="../image/ISIG-5.jpg"height="230px" width="100%" alt="image de l'ecole"></div>
+        </section>
+        <section class="information">
+            <h2>Informations de l'Etudiant</h2>
+            <label for="nom">NOM DE FAMILLE</label>
+            <input type="text" name="nom" id="nom" required>
+            <label for="prenom">PRENOM</label>
+            <input type="text" name="prenom" id="prenom" required>
+            <label for="date">DATE DE NAISSANCE</label>
+            <input type="date" name="date" id="date" required>
+            <label for="releve">RELEVE DE NOTES</label>
+            <input type="file" name="releve" id="releve" required>
+            <h2>Choix du Programme Academique</h2>
+            <div class="filiere">
+                <label for="filiere">FILIERE SOUHAITEE</label>
+                <select name="filiere" id="filiere">
+                    <option value="">Selectionnez un programme</option>
+                    <option value="liage">Informatique de gestion</option>
+                    <option value="robot">Robotique</option>
+                    <option value="gl">Genie Logiciel</option>
+                    <option value="ia">Intelligence Artificielle</option>
+                    <option value="em">Electromecanique</option>
+                    <option value="gc">Genie civil</option>
+                    <option value="archi">Archietcures</option>
+                </select>
+                <h5>Note : L'admission definitive depend des resultats de niveau</h5>
+            </div>
+            <h2>Coordonnees des Tuteurs</h2>
+            <label for="tuteurs">EMAIL DE CONTACT</label>
+            <input type="email" name="tuteurs" id="tuteurs" placeholder="email@exemple.fr" required>
+            <label for="tel">TELEPHONE</label>
+            <input type="tel" name="tel" id="tel" placeholder="+243 000 000 000" required>
+            <h5>Vos donnees sont securisees et traitees conformement au RPGD </h5>
+            <button type="submit" class="btn-submit">SOUMETRTE MA CANDIDATURE</button>
+        </section>
+        <section class="pourquoi">
+            <div class="pourquoi-1">
+                <h2>Pourquoi nous choisir ?</h2>
+            <div class="feature">
+                <div class="icon"><i class="fa-solid fa-star"></i></div>
+                <p>Corps enseignant d'eception et suivi personnalise .</p>
+            </div>
+            <div class="feature">
+                <div class="icon"><i class="fa-solid fa-flask-vial"></i></div>
+                <p>Laboratoire de pointe et infrastructure sportives de modernes .</p>
+            </div>
+            <div class="feature">
+                <div class="icon"><i class="fa-solid fa-earth-africa"></i></div>
+                <p>Ouverture internationale avec des programmes d'echange .</p>
+            </div>
+            </div>
+            <div class="pourquoi-image"><img src="../image/atelier mecanique.jpg" alt=""></div>
+        </section>
+
+    </main>
 </body>
 <footer>
     <div class="adresse">

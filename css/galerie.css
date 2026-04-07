@@ -17,11 +17,11 @@
 .image{
     height: 250px;
     width: 35%;
-    /* background-image: url(../image/conference.jpg); */
     background-size: cover;
     margin: 20px;
     border-radius: 10px;
-    border: solid;
+    border: 1px #333;
+    overflow: hidden;
 }
 .image img{
     height: 100%;
