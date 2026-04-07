@@ -17,10 +17,15 @@
 .image{
     height: 250px;
     width: 35%;
-    background-image: url(../image/conference.jpg);
+    /* background-image: url(../image/conference.jpg); */
     background-size: cover;
     margin: 20px;
     border-radius: 10px;
+    border: solid;
+}
+.image img{
+    height: 100%;
+    width: 100%;
 }
 .imge{
     display: flex;
